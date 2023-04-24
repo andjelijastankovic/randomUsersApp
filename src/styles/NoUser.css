@@ -1,0 +1,16 @@
+.errorDiv {
+    width: 60%;
+    margin: 30px auto;
+}
+
+.errorIcon {
+    font-size: 72px;
+    text-align: center;
+    color: rgb(99,99,99);
+}
+
+.errorPar {
+    font-size: 24px;
+    text-align: center;
+    color: rgb(99,99,99);
+}

@@ -1,0 +1,75 @@
+.result {
+    width: 60%;
+    margin: 5px auto 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 10px;
+    border: 1px solid rgb(224, 224, 224);
+    border-bottom: none;
+}
+
+.list:last-child {
+    border-bottom: 1px solid rgb(224, 224, 224);
+}
+
+.name {
+    font-weight: bold;
+}
+
+.rounded {
+    border: 2px solid rgb(238,110,115);
+    border-radius: 50%;
+}
+
+.grid {
+    width: 60%;
+    margin: 5px auto 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+}
+
+.card {
+    border: 1px solid rgb(238,110,115);
+}
+
+.square {
+    width: 100%;
+}
+
+.details {
+    position: relative;
+}
+
+.details > p {
+    margin: 4px;
+}
+
+.nameOver {
+    position: absolute;
+    bottom: 80px;
+    left: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 3px;
+    background-color: rgb(238,110,115);
+    border-radius: 2px;
+}
+
+.genders {
+    width: 60%;
+    margin: 10px auto;
+    text-align: right;
+    color: rgb(158,170,199);
+}
+
+.female {
+    background-color: rgb(255,235,238);
+}
